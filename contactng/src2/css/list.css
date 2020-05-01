@@ -1,0 +1,20 @@
+main{
+    padding: 90px;
+    margin: auto;
+}
+.card{
+    display: inline-flex;
+}
+.cardlist{
+width: 384px;
+height: 142px;
+background: #F2F3F7;
+box-shadow: -6px -6px 16px #FFFFFF, 6px 6px 16px #BECDE2;
+border-radius: 40px;
+}
+.cardimg{
+width: 142px;
+height: 142px;
+background: url(../img/background1.jpg);
+border-radius: 40px 0px 0px 40px;
+}
