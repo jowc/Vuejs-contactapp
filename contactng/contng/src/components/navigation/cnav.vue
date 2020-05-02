@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex items-center justify-between flex-wrap bg-green-600 p-3 font-sans">
+  <nav class="flex items-center justify-between flex-wrap bg-green-800 p-3 font-sans">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <span class="font-semibold text-xl tracking-tight ml-4">Contact</span>
     </div>
@@ -13,26 +13,26 @@
         </svg>
       </button>
     </div>
-    <div class="w-full block flex-grow-0 lg:flex lg:items-start lg:w-3/5">
+    <div class="w-full block flex-grow-0 lg:flex lg:items-start lg:w-3/5 text-base">
       <div class="text-sm lg:flex-grow">
         <router-link
           to="/"
-          class="block mt-4 lg:inline-block lg:mt-0 text-white font-bold text-lg hover:text-grey-100 lg:ml-2 lg:mr-2"
+          class="block mt-4 lg:inline-block lg:mt-0 text-white font-bold hover:text-grey-100 lg:ml-2 lg:mr-2"
           exact
         >Home</router-link>
         <router-link
           to="/list"
-          class="block mt-4 lg:inline-block lg:mt-0 text-white font-bold text-lg hover:text-grey-100 lg:ml-2 lg:mr-2"
+          class="block mt-4 lg:inline-block lg:mt-0 text-white font-bold hover:text-grey-100 lg:ml-2 lg:mr-2"
           exact
         >List</router-link>
         <router-link
           to="/login"
-          class="block mt-4 lg:inline-block lg:mt-0 text-white font-bold text-lg hover:text-grey-100 lg:ml-2 lg:mr-2"
+          class="block mt-4 lg:inline-block lg:mt-0 text-white font-bold hover:text-grey-100 lg:ml-2 lg:mr-2"
           exact
         >Login</router-link>
         <router-link
           to="/register"
-          class="block mt-4 lg:inline-block lg:mt-0 text-white font-bold text-lg hover:text-grey-100 lg:ml-2 lg:mr-2"
+          class="block mt-4 lg:inline-block lg:mt-0 text-white font-bold hover:text-grey-100 lg:ml-2 lg:mr-2"
           exact
         >Register</router-link>
       </div>
