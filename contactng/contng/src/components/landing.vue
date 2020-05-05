@@ -1,31 +1,41 @@
 <template>
   <main>
     <cheader />
-    <div class="container" style="padding-bottom: 50px;margin-top: 30px;">
+    <div class="container font-sans" style="padding-bottom: 50px;margin-top: 30px;">
       <div class="row justify-content-center topspaceP">
         <div class="CategoriesCon">
           <div class="container topspace">
             <!-- Two columns of text -->
-            <div class="row">
-              <div class="col-lg-6 text-center" @click.prevent="component= 'cproducts'">
-                <a href="#">
-                  <img src="../assets/media/package.svg" width="140" height="140" alt />
-                </a>
-                <h2>Products</h2>
-              </div>
-              <!-- /.col-lg-4 -->
-              <div class="col-lg-6 text-center" @click.prevent="component='cservices'">
-                <a href="#">
-                  <img src="../assets/media/customer.svg" width="140" height="140" alt />
-                </a>
-                <h2>Services</h2>
+            <div class="w-full text-xl font-bold">
+              <div class="flex justify-center">
+                <div class="w-3/6 text-center" @click.prevent="component= 'cproducts'">
+                  <a href="#">
+                    <img
+                      src="../assets/media/package.svg"
+                      class="h-32 w-32 object-cover object-center m-auto"
+                      alt
+                    />
+                  </a>
+                  <h2>Products</h2>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="w-3/6 text-center" @click.prevent="component='cservices'">
+                  <a href="#">
+                    <img
+                      src="../assets/media/customer.svg"
+                      class="h-32 w-32 object-cover object-center m-auto"
+                      alt
+                    />
+                  </a>
+                  <h2>Services</h2>
+                </div>
               </div>
               <!-- /.col-lg-4 -->
             </div>
             <!-- /.row -->
           </div>
           <!-- products -->
-          <div class="row justify-content-center">
+          <div class="row">
             <component :is="component"></component>
             <!-- <cproducts /> -->
           </div>
