@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="font-sans antialiased overflow-x-hidden">
     <cnav />
     <router-view></router-view>
     <cfooter />

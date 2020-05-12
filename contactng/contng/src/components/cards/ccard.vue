@@ -42,7 +42,7 @@
               <a
                 class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg shadow text-sm"
                 :href="'tel:234' +vendor.phone"
-              >Call{{tel}}</a>
+              >Call</a>
             </div>
             <div class="w-3/6 text-right">
               <router-link
@@ -62,22 +62,7 @@ export default {
   name: "ccard",
   computed: {
     vendors() {
-      return [
-        {
-          name: "Jovenik Ventures LTD",
-          category: "Plumbing",
-          location: "Living Faith Gwagalada, Abuja",
-          phone: "09051547890",
-          link: "1"
-        },
-        {
-          name: "Akamide Barbing Consultants",
-          category: "Human services",
-          location: "GRA, Port Harcort",
-          phone: "08077654346",
-          link: "2"
-        }
-      ];
+      return this.$store.state.vendors;
     }
   }
 };
