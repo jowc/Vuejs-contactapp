@@ -1,3 +1,3 @@
 #CallAPP
 
-Standard contacts app for business
+VueJS based contacts app for businesses
